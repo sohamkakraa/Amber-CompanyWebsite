@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @font-face {
+    font-family: 'Nosifer Caps';
+    src: local('Nosifer Caps'), url(//fonts.googleapis.com/css?family=Nosifer+Caps);
+    font-family: 'Inter';
+    src: local('Inter'), url(https://fonts.googleapis.com/css2?family=Inter);
+    font-family: 'Exo 2';
+    src: local('Exo 2'), url(https://fonts.googleapis.com/css2?family=Exo+2);
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,'Nosifer Caps','Exo 2', Inter, 'Courier New',monospace;
+}
