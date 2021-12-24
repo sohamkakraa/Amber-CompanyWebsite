@@ -1,6 +1,6 @@
 /*Navigation bar*/
 body{
-    background-image: url(/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/Background1.svg)
+    background-image: url(./assest/Background1.svg)
 }
 .navbar{
     position: absolute;
@@ -172,7 +172,7 @@ body{
 /* Footer */
 
 .footer{
-    background-image: url(/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/Wave.svg);
+    background-image: url(./assest/Wave.svg);
 }
 
 .amber-email{

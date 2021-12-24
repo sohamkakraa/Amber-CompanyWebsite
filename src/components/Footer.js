@@ -1,11 +1,11 @@
 import React from 'react'
-import user from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-user.svg'
-import mail from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-mail.svg'
-import edit from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-edit.svg'
-import facebook from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-facebook.svg'
-import twitter from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-twitter.svg'
-import linkedin from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-linkedin.svg'
-import slack from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/icon-slack.svg'
+import user from '../assest/icon-user.svg'
+import mail from '../assest/icon-mail.svg'
+// import edit from '../assest/icon-edit.svg'
+import facebook from '../assest/icon-facebook.svg'
+import twitter from '../assest/icon-twitter.svg'
+import linkedin from '../assest/icon-linkedin.svg'
+import slack from '../assest/icon-slack.svg'
 
 const Footer = ( ) =>  {
     return (

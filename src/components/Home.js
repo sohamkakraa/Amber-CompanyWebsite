@@ -1,7 +1,7 @@
 import React from 'react'
-import EditingPage from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/EditingPage.svg'
-import Pen from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/Pen.svg'
-import WaterCan from '/Users/sohamkakra/Desktop/F28SD/Amber-company-website/src/assest/WaterCan.svg'
+import EditingPage from '../assest/EditingPage.svg'
+import Pen from '../assest/Pen.svg'
+import WaterCan from '../assest/WaterCan.svg'
 
 const Home = ( ) =>  {
     return (
