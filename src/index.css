@@ -12,9 +12,15 @@ body {
     src: local('Inter'), url(https://fonts.googleapis.com/css2?family=Inter);
     font-family: 'Exo 2';
     src: local('Exo 2'), url(https://fonts.googleapis.com/css2?family=Exo+2);
+    font-family: 'Exo 2';
+    src: local('Exo 2'), url(https://fonts.googleapis.com/css2?family=Exo+2);
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(https://fonts.googleapis.com/css2?family=Montserrat);
+    font-family: 'Poppins';
+    src: local('Poppins'), url(https://fonts.googleapis.com/css2?family=Poppins);
   }
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas,'Nosifer Caps','Exo 2', Inter, 'Courier New',monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas,'Nosifer Caps','Exo 2', Inter, 'Courier New', Montserrat,monospace, Poppins;
 }

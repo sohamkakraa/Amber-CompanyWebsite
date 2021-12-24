@@ -1,7 +1,8 @@
 /*Navigation bar*/
 body{
-    background-image: url(./assest/Background1.svg)
+    background-image: url(./assest/Background1.svg);
 }
+
 .navbar{
     position: absolute;
     width: auto;
@@ -31,44 +32,36 @@ body{
     justify-content: center;
 }
 
-.button-selected {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2vw;
-    line-height: 32px;
+.btn {
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 1.2vw !important;
+    line-height: 32px !important;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    overflow: hidden;
-    white-space: nowrap;
-
-    color: #000000;
-    background: none;
-    border: none;
-}
-
-.button {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2vw;
-    line-height: 32px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 
     overflow: hidden;
     white-space: nowrap;
 
-    color: #6C5CE7;
-    background: none;
-    border: none;
+    color: #6C5CE7 !important;
+    background: none !important;
+    border: none !important;
 }
 
+.btn:hover {
+    color: #FFFFFF !important;
+    background: #FFBF00 !important;
+    border-radius: 5% !important;
+    border: none !important;
+}
+
+.btn:active{
+    color: #000000 !important;
+    font-weight: bold !important;
+}
 /*Home Page*/
 
 .heading{
@@ -305,4 +298,84 @@ input{
 
     /* Black */
     color: #2D3436;
+}
+
+/* About Us Page */
+.heading2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 104px;
+    display: flex;
+    justify-content: center;
+
+    color: #000000;
+}
+
+.sub-heading2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    
+    color: #000000;
+}
+
+.illustrations {
+    height: 35vw !important;
+    display: flex !important;
+    justify-self: center !important;
+}
+
+.description{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    color: #121212;
+}
+
+.meet-our-team{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+
+    color: #252B42;
+}
+
+.profile-picture {
+    width: 100% !important;
+    height: 60% !important;
+    margin: 0 0 0 !important;
+}
+
+.name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin: 2px 2px 2px 2px;
+    
+    color: #252B42;
+}
+
+.role {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+
+    color: #737373;
 }
